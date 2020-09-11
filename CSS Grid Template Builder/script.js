@@ -412,7 +412,7 @@ function Foot() {
     /*#__PURE__*/ React.createElement(
       StyledLink,
       {
-        href: "https://twitter.com/a_dugois",
+        href: "https://twitter.com/Siddhant_K_code",
         target: "_blank"
       },
       "Follow me on Twitter!"
