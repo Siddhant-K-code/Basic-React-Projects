@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+ body {
+	 background-color: #fbfbfb;
+	 margin: 0;
+}
+ .panel {
+	 width: 100%;
+	 background-color: white;
+	 position: relative;
+	 text-align: center;
+	 padding-top: 20px;
+	 padding-bottom: 50px;
+}
+ .panel h1 {
+	 font-family: 'Lobster';
+}
+ .panel .group {
+	 text-align: left;
+	 display: inline-block;
+}
+ .panel-1 {
+	 background-color: #fbfbfb;
+	 color: #444;
+}
+ .panel-2 {
+	 background-color: #b9e1dc;
+	 color: #444;
+}
+ .panel-3 {
+	 background-color: #f38181;
+	 color: #444;
+}
+ .panel-4 {
+	 background-color: #756c83;
+	 color: #fbfbfb;
+}
+ .checkbox-root {
+	 margin-bottom: 8px;
+}
+ .checkbox {
+	 width: 22px;
+	 height: 22px;
+	 border: 2px solid #424242;
+	 cursor: pointer;
+	 display: inline-block;
+	 vertical-align: middle;
+	 position: relative;
+	 background-color: white;
+	 border-radius: 3px;
+}
+ .checkbox svg {
+	 margin: auto;
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 display: block;
+	 width: 4;
+	 height: 4;
+}
+ .checkbox .filled {
+	 margin: auto;
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 width: 70%;
+	 height: 70%;
+	 border-radius: 2px;
+}
+ .checkbox .filled-circle {
+	 border-radius: 50%;
+}
+ .checkbox-circle {
+	 border-radius: 50%;
+}
+ .label {
+	 display: inline-block;
+	 vertical-align: middle;
+	 font-family: 'Roboto Mono';
+	 font-size: 20px;
+}
+ .label-left {
+	 margin-right: 8px;
+}
+ .label-right {
+	 margin-left: 8px;
+}
+ 
